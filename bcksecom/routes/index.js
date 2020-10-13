@@ -12,8 +12,8 @@ router.get(
     var infoObj = {}; //$info = arrary();
     infoObj.cuenta = "0803199800498";
     infoObj.nombre = "Fernando Daniel Lopez Barahona";
-    infoObj.email = "flopezbarahona1998@gmail.com";
-    res.json(infoObj);
+    infoObj.email = "flopeszbarahona1998@gmail.com";
+    res.render('index', { title: 'Express'});
   }
   ); //get Info
 
