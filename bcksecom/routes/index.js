@@ -13,10 +13,10 @@ router.get(
     infoObj.cuenta = "0803199800498";
     infoObj.nombre = "Fernando Daniel Lopez Barahona";
     infoObj.email = "flopezbarahona1998@gmail.com";
-    
+    res.json(infoObj);
   }
   ); //get Info
 
-router.post('/post',)
+
 
 module.exports = router;
